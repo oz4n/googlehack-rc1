@@ -1,6 +1,8 @@
-#Google Hack FOR 
-YII FRAMEWORK (http://www.yiiframework.com/)
+#Google Hack
 Google Hack function to search data by skipping every websait index.
+
+##Yii Framework Extension
+http://www.yiiframework.com/extension/googlehack/
 
 ##Requirements 
 Requirements of using this extension (e.g. Yii 1.1 or above)...
@@ -8,6 +10,8 @@ Requirements of using this extension (e.g. Yii 1.1 or above)...
 ##Setup instructions 
 Download googlehack-rc1.zip extrak and move to folder /protected/modules
 In main.php configuration file as below
+
+******************************************************************************************
 'modules' => array('googlehacks'),
 'preload' => array('bootstrap'),
 'components' => array(
@@ -17,6 +21,7 @@ In main.php configuration file as below
         'bootstrap' => array(
             'class' => 'application.modules.googlehacks.ext.bootstrap.components.Bootstrap'
         )
+*******************************************************************************************
 
 ##How to use it
 To use the data retrieval module which is integrated with the Google search engine, use the keyword short to see maximum results.
